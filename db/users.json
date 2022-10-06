@@ -16,5 +16,17 @@
     "password": "$2a$12$6lU7JRPa1lbbxnZlGBGJVOWcLxCxKphY2hyhMFydu8Yiyn.kWLAou",
     "isAdmin": false,
     "money": 500
+  },
+  {
+    "username": "pinkey",
+    "password": "$2b$12$KnzxVLmsjtR6QSu9MicMG.8yFRlrb2rI.txGVbRx5eXcVIwUpuwfO",
+    "isAdmin": true,
+    "money": null
+  },
+  {
+    "username": "user3",
+    "password": "$2b$12$yQozJb39j8gn/BWq/9c.BOuuItHE3pzAnFYXtxE/s3S8JRL.TA0HG",
+    "isAdmin": false,
+    "money": 507
   }
 ]
