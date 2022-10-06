@@ -14,8 +14,8 @@ export default function summaryRoute(req, res) {
     let adminCount = 0;
     let totalMoney = 0;
     users.forEach((x) => {
-      userCount++;
       if (x.isAdmin) adminCount++;
+      else userCount++;
       totalMoney += x.money;
     });
 
