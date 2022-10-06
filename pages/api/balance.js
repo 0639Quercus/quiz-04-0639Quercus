@@ -6,7 +6,7 @@ export default function balanceRoute(req, res) {
     //check authentication
     const user = checkToken(req);
 
-    if (!user)
+    if (!user || user.isAdmin)
       return res.status(403).json({
         ok: false,
         message: "You do not have permission to check balance",
