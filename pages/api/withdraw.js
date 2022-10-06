@@ -1,6 +1,5 @@
-import { writeUsersDB } from "../../../lecture-15-finished/backendLibs/dbLib";
 import { checkToken } from "../../backendLibs/checkToken";
-import { readUsersDB } from "../../backendLibs/dbLib";
+import { readUsersDB, writeUsersDB } from "../../backendLibs/dbLib";
 
 export default function withdrawRoute(req, res) {
   if (req.method === "PUT") {
